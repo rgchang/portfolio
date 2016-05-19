@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+}
+
+h1, h2, h3, p, li, a {
+  font-family: 'dosis';
+}
+
+h1 {
+  font-size: 6.5em;
+}
+
+h2 {
+  font-family: 'crete round';
+  font-size: 2.2em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #35a4c0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.hero {
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  margin-bottom: .4em;
+  letter-spacing: 40px;
+  font-weight: 600;
+}
+
+.hero p {
+  margin-bottom: .2em;
+  text-transform: capitalize;
+}
+
+.hero p a {
+  color: #35a4c0;
+  letter-spacing: 4px;
+  font-family: 'crete round';
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.hero p:nth-of-type(even) {
+  font-size: 2.6em;
+  font-weight: 900;
+}
+
+.hero p:nth-of-type(odd) {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+
+.about {
+  padding: 4em 0;
+  background-color: rgba(242, 242, 242, 0.3);
+}
+
+.about .about-container {
+  margin-bottom: 3em;
+}
+
+.about .about-container .image-me img {
+  width: 300px;
+  height: 240px;
+}
+
+.about .about-container .about-me {
+  padding: 0;
+}
+
+.about .about-container .about-me h2 {
+  margin-bottom: .3em;
+  color: #474747;
+}
+
+.about .about-container .about-me p {
+  font-size: 1.3em;
+  line-height: 31px;
+  margin-bottom: .5em;
+}
+
+.about .about-container .about-me p a {
+  color: #35a4c0;
+}
+
+.about .skills ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about .skills ul li img {
+  width: 100px;
+  height: 100px;
+}
+
+.portfolio {
+  padding: 4em 0;
+}
+
+.portfolio .recent-title h2 {
+  color: #474747;
+}
+
+.portfolio .recent-work {
+  padding: 0 0 2em 0;
+  margin-bottom: 2.5em;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+.portfolio .recent-work:last-of-type {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.portfolio .recent-work article {
+  display: flex;
+}
+
+.portfolio .recent-work article img {
+  width: 300px;
+  height: 240px;
+  margin: 0 1em 1em 0;
+  border: 1px solid rgba(230, 230, 230, 0.5);
+}
+
+.portfolio .recent-work article h2 a {
+  color: #35a4c0;
+  font-family: 'crete round';
+}
+
+.portfolio .recent-work p {
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+.footer {
+  background-color: rgba(242, 242, 242, 0.3);
+  text-align: center;
+  padding-top: 2em;
+}
+
+.footer h2 {
+  margin-bottom: 1em;
+  color: #474747;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.footer ul li {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 1em;
+  color: #35a4c0;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.footer ul li a i {
+  color: #35a4c0;
+  font-size: 1.5em;
+}
+
+.footer p {
+  background-color: rgba(242, 242, 242, 0.9);
+  padding: .5em 0;
+  letter-spacing: 2px;
+}

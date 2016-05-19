@@ -1,0 +1,33 @@
+.footer {
+	background-color: hsla(0, 0%, 95%, .3);
+	text-align: center;
+	padding-top: 2em;
+	h2 {
+		margin-bottom: 1em;
+		color: $secondary-color;
+	}
+	ul {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 2em;
+		li {
+			height: 50px;
+			line-height: 50px;
+			padding: 0 1em;
+			color: $main-color;
+			font-size: 1.5em;
+			letter-spacing: 1px;
+			a {
+				i {
+					color: $main-color;
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+	p {
+		background-color: hsla(0, 0%, 95%, .9);
+		padding: .5em 0;
+		letter-spacing: 2px;
+	}
+}
