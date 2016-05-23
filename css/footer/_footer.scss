@@ -21,6 +21,10 @@
 				i {
 					color: $main-color;
 					font-size: 1.5em;
+					transition: .2s ease-in-out;
+					&:hover {
+						color: #2C89A0;
+					}
 				}
 			}
 		}

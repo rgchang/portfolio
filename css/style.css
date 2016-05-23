@@ -65,6 +65,11 @@ a:hover, a:focus {
   font-family: 'crete round';
   font-size: 1.1em;
   font-weight: 600;
+  transition: .2s ease-in-out;
+}
+
+.hero p a:hover {
+  color: #2C89A0;
 }
 
 .hero p:nth-of-type(even) {
@@ -108,6 +113,11 @@ a:hover, a:focus {
 
 .about .about-container .about-me p a {
   color: #35a4c0;
+  transition: .2s ease-in-out;
+}
+
+.about .about-container .about-me p a:hover {
+  color: #2C89A0;
 }
 
 .about .skills ul {
@@ -155,6 +165,11 @@ a:hover, a:focus {
 .portfolio .recent-work article h2 a {
   color: #35a4c0;
   font-family: 'crete round';
+  transition: .2s ease-in-out;
+}
+
+.portfolio .recent-work article h2 a:hover {
+  color: #2C89A0;
 }
 
 .portfolio .recent-work p {
@@ -191,6 +206,11 @@ a:hover, a:focus {
 .footer ul li a i {
   color: #35a4c0;
   font-size: 1.5em;
+  transition: .2s ease-in-out;
+}
+
+.footer ul li a i:hover {
+  color: #2C89A0;
 }
 
 .footer p {
