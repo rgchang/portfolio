@@ -21,6 +21,10 @@
 				margin-bottom: .5em;
 				a {
 					color: $main-color;
+					transition: .2s ease-in-out;
+					&:hover {
+						color: #2C89A0;
+					}
 				}
 			}
 		}

@@ -26,6 +26,10 @@
 				a {
 					color: $main-color;
 					font-family: 'crete round';
+					transition: .2s ease-in-out;
+					&:hover {
+						color: #2C89A0;
+					}
 				}
 			}
 		}

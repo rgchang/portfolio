@@ -16,6 +16,10 @@
 			font-family: 'crete round';
 			font-size: 1.1em;
 			font-weight: 600;
+			transition: .2s ease-in-out;
+			&:hover {
+				color: #2C89A0;
+			}
 		}
 		&:nth-of-type(even) {
 			font-size: 2.6em;
