@@ -22,14 +22,19 @@
 				margin: 0 1em 1em 0;
 				border: 1px solid hsla(0, 0%, 90%, .5);
 			}
-			h2 {
-				a {
-					color: $main-color;
-					font-family: 'crete round';
-					transition: .2s ease-in-out;
-					&:hover {
-						color: #2C89A0;
+			aside {
+				h2 {
+					a {
+						color: $main-color;
+						font-family: 'crete round';
+						transition: .2s ease-in-out;
+						&:hover {
+							color: #2C89A0;
+						}
 					}
+				}
+				p {
+					letter-spacing: 1px;
 				}
 			}
 		}
