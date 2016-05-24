@@ -162,14 +162,18 @@ a:hover, a:focus {
   border: 1px solid rgba(230, 230, 230, 0.5);
 }
 
-.portfolio .recent-work article h2 a {
+.portfolio .recent-work article aside h2 a {
   color: #35a4c0;
   font-family: 'crete round';
   transition: .2s ease-in-out;
 }
 
-.portfolio .recent-work article h2 a:hover {
+.portfolio .recent-work article aside h2 a:hover {
   color: #2C89A0;
+}
+
+.portfolio .recent-work article aside p {
+  letter-spacing: 1px;
 }
 
 .portfolio .recent-work p {
